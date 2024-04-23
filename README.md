@@ -1,1 +1,0 @@
-# lingmo-rootfs-builder
