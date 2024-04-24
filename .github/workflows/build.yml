@@ -32,6 +32,8 @@ jobs:
         sudo dpkg --force-all -r libunwind-dev libunwind-14-dev libunwind-14 libunwind
         sudo apt build-dep -y --fix-broken linux linux-meta
         sudo apt install -y libncurses-dev gawk flex bison openssl libssl-dev dkms libelf-dev libudev-dev libpci-dev libiberty-dev autoconf llvm
+        sudo apt install -y libnuma-dev
+        sudo apt install -y gcc-multilib libc6-i386 libc6-dev-i386
         sudo locale-gen en_US.UTF-8
 
     - name: Build rootfs
