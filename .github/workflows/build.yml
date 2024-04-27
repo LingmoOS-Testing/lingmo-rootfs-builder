@@ -39,7 +39,7 @@ jobs:
     - name: Build rootfs
       run: |
         mv config .config
-        eatmydata CFLAGS=-Wno-stringop-overflow CXXFLAGS=-Wno-stringop-overflow make  > /dev/null
+        eatmydata make  > /dev/null
 
     - uses: actions/upload-artifact@v3
       with:
