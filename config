@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot -gb23fbe77 Configuration
+# Buildroot -g1529ceef Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOST_GCC_AT_LEAST_4_9=y
@@ -241,7 +241,7 @@ BR2_GCC_VERSION_11_X=y
 # BR2_GCC_VERSION_13_X is not set
 BR2_GCC_SUPPORTS_DLANG=y
 BR2_GCC_VERSION="11.4.0"
-BR2_EXTRA_GCC_CONFIG_OPTIONS="--with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --without-cuda-driver  --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu"
+BR2_EXTRA_GCC_CONFIG_OPTIONS="--with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --without-included-gettext --enable-threads=posix --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --without-cuda-driver  --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu"
 BR2_TOOLCHAIN_BUILDROOT_CXX=y
 BR2_TOOLCHAIN_BUILDROOT_FORTRAN=y
 # BR2_TOOLCHAIN_BUILDROOT_DLANG is not set
